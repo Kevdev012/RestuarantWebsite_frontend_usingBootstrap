@@ -1,0 +1,48 @@
+.img-fluid{
+    border-radius: 20%;
+    width: 480px;
+}
+
+.p-4 .fa-solid{
+    font-size: 30px;
+}
+
+:root{
+    --light: #f1f8ff;
+    --dark: #0F1728;
+}
+
+.ff-secondary{
+    font-family: cursive;
+}
+
+fw-medium{
+    font-weight: 600 !important;
+}
+
+fw-semi-bold{
+    font-weight: 700 !important;
+}
+
+.back-to-top{
+    position: fixed;
+    display: none;
+    right: 45px;
+    bottom: 45px;
+    z-index: 90;
+}
+
+
+
+.navbar-dark .navbar-nav .nav-link{
+    position: relative;
+    margin-left: 25px;
+    padding: 35px 0;
+    font-size: 15px;
+    color: var(--light) !important;
+    text-transform: uppercase;
+    font-weight: 500;
+    outline: none;
+    transition: .5s;
+}
+
